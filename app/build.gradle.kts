@@ -2,7 +2,16 @@ plugins {
     id("java")
     id("com.github.ben-manes.versions") version "0.53.0"
     id("application")
+    id("org.sonarqube") version "7.1.0.6387"
 }
+sonar {
+    properties {
+        property("sonar.projectKey", "Nariman163_java-project-61")
+        property("sonar.organization", "nariman163")
+    }
+}
+
+
 application{
     mainClass = "hexlet.code.App"
 }
