@@ -9,4 +9,4 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Nariman163_java-project-61&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Nariman163_java-project-61)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Nariman163_java-project-61&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Nariman163_java-project-61)
 
-
+Запись демо игры "Проверка на точность": https://asciinema.org/a/ggkauanO0NJ0dMrm
