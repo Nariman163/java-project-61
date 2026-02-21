@@ -1,0 +1,2 @@
+//Коммент.
+package hexlet.code;

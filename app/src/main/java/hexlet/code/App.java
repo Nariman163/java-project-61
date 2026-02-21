@@ -1,7 +1,14 @@
 package hexlet.code;
 
-public class App {
-    public static void main(String[] args) {
+public final class App {
+    private App() {
+        //Предотвращает создание класса
+    }
+    /**
+     * Точка входа в программу.
+     * @param args аргументы командной строки
+     */
+    public static void main(final String[] args) {
         Cli.meetGames();
     }
 }
