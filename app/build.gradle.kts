@@ -9,6 +9,7 @@ sonar {
     properties {
         property("sonar.projectKey", "Nariman163_java-project-61")
         property("sonar.organization", "nariman163")
+        property("sonar.host.url", "https://sonarcloud.io")
     }
 }
 
