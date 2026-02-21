@@ -8,11 +8,11 @@ public final class Cli {
     /**
      * Точка входа в программу.
      */
-        public static void meetGames() {
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Welcome to the Brain Games!");
-            System.out.println("May I have your name? ");
-            String name = scanner.nextLine();
-            System.out.println("Hello, " + name + "!");
-        }
+    public static void meetGames() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Welcome to the Brain Games!");
+        System.out.println("May I have your name? ");
+        String name = scanner.nextLine();
+        System.out.println("Hello, " + name + "!");
+    }
 }
