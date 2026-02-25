@@ -1,5 +1,4 @@
 run-dist:
 	./build/install/app/bin/app
-
-make build:
-    ./gradlew build
+build:
+	./gradlew build
