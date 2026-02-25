@@ -1,6 +1,5 @@
 package hexlet.code;
 import hexlet.code.games.Calculator;
-import hexlet.code.games.Cli;
 import hexlet.code.games.Even;
 
 import java.util.Scanner;
@@ -13,7 +12,7 @@ public final class App {
      * Точка входа в программу.
      * @param args аргументы командной строки
      */
-    public static void main( String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter the game number and press Enter.");
@@ -26,6 +25,8 @@ public final class App {
             case 2:
                 Calculator.calculateGame();
                 break;
+            default:
+                System.out.println("Select correct number");
         }
-        }
+    }
 }
