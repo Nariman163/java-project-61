@@ -10,3 +10,5 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Nariman163_java-project-61&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Nariman163_java-project-61)
 
 Запись демо игры "Проверка на точность": https://asciinema.org/a/ggkauanO0NJ0dMrm
+
+Запись демо игры "Калькулятор":  https://asciinema.org/a/J48ODijN3v9FxCia
