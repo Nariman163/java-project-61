@@ -1,6 +1,7 @@
 package hexlet.code;
 import hexlet.code.games.Calculator;
 import hexlet.code.games.Even;
+import hexlet.code.games.GCD;
 
 import java.util.Scanner;
 
@@ -16,7 +17,7 @@ public final class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Please enter the game number and press Enter.");
-        System.out.println("1 - Even\n2 - Calc\n0 - Exit");
+        System.out.println("1 - Even\n2 - Calc\n3 - GCD\n0 - Exit");
         int selectNumber = scanner.nextInt();
         switch (selectNumber) {
             case 1:
@@ -24,6 +25,12 @@ public final class App {
                 break;
             case 2:
                 Calculator.calculateGame();
+                break;
+            case 3:
+                GCD.gcdGame();
+                break;
+            case 0:
+                System.out.println("Goodbye!");
                 break;
             default:
                 System.out.println("Select correct number");
