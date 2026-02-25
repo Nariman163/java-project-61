@@ -12,3 +12,5 @@
 Запись демо игры "Проверка на точность": https://asciinema.org/a/ggkauanO0NJ0dMrm
 
 Запись демо игры "Калькулятор":  https://asciinema.org/a/J48ODijN3v9FxCia
+
+Запись демо игры "НОД": https://asciinema.org/a/28I0pNgpo09sMJad

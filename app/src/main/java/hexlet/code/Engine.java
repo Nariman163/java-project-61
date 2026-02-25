@@ -12,7 +12,7 @@ public class Engine {
         System.out.println("Hello, " + userName + "!");
         System.out.println(gameRule);
 
-    for (int i = 0; i < ROUNDS; i++) {
+        for (int i = 0; i < ROUNDS; i++) {
             System.out.println("Question: " + questions[i]);
             System.out.println("You answer: ");
             String userAnswer = scanner.nextLine();

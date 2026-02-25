@@ -10,7 +10,7 @@ public class GCD {
         String[] correctAnswers = new String[Engine.ROUNDS];
         Random random = new Random();
 
-        for (int i =0; i < Engine.ROUNDS; i++) {
+        for (int i = 0; i < Engine.ROUNDS; i++) {
             int number1 = random.nextInt(50);
             int number2 = random.nextInt(50);
             questions[i] = number1 + " " + number2;
