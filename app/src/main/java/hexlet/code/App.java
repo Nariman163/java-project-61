@@ -1,5 +1,9 @@
 package hexlet.code;
-import hexlet.code.games.*;
+import hexlet.code.games.Calculator;
+import hexlet.code.games.Even;
+import hexlet.code.games.GCD;
+import hexlet.code.games.PrimeNumber;
+import hexlet.code.games.Progression;
 import java.util.Scanner;
 
 public final class App {
