@@ -16,3 +16,5 @@
 Запись демо игры "НОД": https://asciinema.org/a/28I0pNgpo09sMJad
 
 Запись демо игры "Прогрессия"  https://asciinema.org/a/PHmMLjXXsOsYvNdF
+
+Запись демо игры "Простые числа"  https://asciinema.org/a/NFowKO1zUOQTtYh9
