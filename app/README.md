@@ -14,3 +14,5 @@
 Запись демо игры "Калькулятор":  https://asciinema.org/a/J48ODijN3v9FxCia
 
 Запись демо игры "НОД": https://asciinema.org/a/28I0pNgpo09sMJad
+
+Запись демо игры "Прогрессия"  https://asciinema.org/a/PHmMLjXXsOsYvNdF
