@@ -9,6 +9,7 @@ public class Engine {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the Brain Games!");
         System.out.print("May I have your name? ");
+        System.out.flush();
         String userName = scanner.nextLine();
         System.out.println("Hello, " + userName + "!");
         System.out.println(gameRule);
@@ -16,11 +17,12 @@ public class Engine {
         for (int i = 0; i < ROUNDS; i++) {
             System.out.println("Question: " + questions[i]);
             System.out.print("Your choice: ");
+            System.out.flush();
             String userAnswer = scanner.nextLine();
             if (userAnswer.equals(correctAnswers[i])) {
                 System.out.println("Correct!");
             } else {
-                System.out.println("'" + userAnswer + "' is wrong answer ;(. Correct answer was '" + correctAnswers[i] + "'");
+                System.out.println("'" + userAnswer + "' is wrong answer ;(. Correct answer was '" + correctAnswers[i] + "'.");
                 System.out.println("Let's try again, " + userName + "!");
                 return;
             }
