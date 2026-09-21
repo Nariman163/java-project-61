@@ -19,7 +19,10 @@ public final class App {
 
         System.out.println("Please enter the game number and press Enter.");
         System.out.println("1 - Even\n2 - Calc\n3 - GCD\n4 - Progression\n5 - Prime\n0 - Exit");
+        System.out.print("Your choice: ");
+        System.out.flush();
         int selectNumber = scanner.nextInt();
+        scanner.nextLine();
         switch (selectNumber) {
             case 1:
                 Even.evenGame();

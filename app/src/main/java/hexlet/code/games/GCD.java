@@ -10,8 +10,8 @@ public class GCD {
         Random random = new Random();
 
         for (int i = 0; i < Engine.ROUNDS; i++) {
-            int number1 = random.nextInt(50);
-            int number2 = random.nextInt(50);
+            int number1 = random.nextInt(50) + 1;
+            int number2 = random.nextInt(50) + 1;
             questions[i] = number1 + " " + number2;
             int gcd = calculateGCD(number1, number2);
             correctAnswers[i] = Integer.toString(gcd);
