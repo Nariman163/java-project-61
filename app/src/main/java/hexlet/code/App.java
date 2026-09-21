@@ -41,7 +41,7 @@ public final class App {
                 break;
             case 0:
                 System.out.println("Goodbye!");
-                break;
+                return;
             default:
                 System.out.println("Select correct number");
         }
