@@ -25,18 +25,25 @@ public final class App {
         scanner.nextLine();
         switch (selectNumber) {
             case 1:
-                Even.evenGame();
+                System.out.println("Welcome to the Brain Games!");
+                System.out.print("May I have your name? ");
+                System.out.flush();
+                var greetName = scanner.nextLine();
+                System.out.println("Hello, " + greetName + "!");
                 break;
             case 2:
-                Calculator.calculateGame();
+                Even.evenGame();
                 break;
             case 3:
-                GCD.gcdGame();
+                Calculator.calculateGame();
                 break;
             case 4:
-                Progression.progressionGame();
+                GCD.gcdGame();
                 break;
             case 5:
+                Progression.progressionGame();
+                break;
+            case 6:
                 PrimeNumber.primeGame();
                 break;
             case 0:
